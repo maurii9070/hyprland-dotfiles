@@ -1,0 +1,32 @@
+# Configuración de Wofi - Minimalista
+# Optimizada para velocidad y con iconos
+
+# Iconos
+show=drun
+allow_images=true
+image_size=20
+
+# Dimensiones
+width=500
+height=350
+location=center
+
+# Búsqueda
+insensitive=true
+matching=fuzzy
+
+# Comportamiento - Apps más usadas primero
+no_actions=true
+prompt=
+sort_order=default
+
+# Rendimiento
+gtk_dark=true
+layer=overlay
+parse_search=false
+exec_search=false
+
+# Visual
+hide_scroll=true
+lines=8
+normal_window=false

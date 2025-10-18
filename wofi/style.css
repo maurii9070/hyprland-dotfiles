@@ -1,0 +1,68 @@
+/* Estilo Minimalista para Wofi */
+
+* {
+    font-family: 'JetBrainsMono Nerd Font',sans-serif;
+    font-size: 13px;
+}
+
+window {
+    background-color: rgba(24, 24, 37, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
+
+#input {
+    margin: 8px;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    color: #e0e0e0;
+    border-radius: 0;
+}
+
+#input:focus {
+    border-bottom: 1px solid rgba(137, 180, 250, 0.6);
+}
+
+#inner-box {
+    margin: 2px;
+    padding: 0;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0;
+    padding: 0;
+}
+
+#text {
+    padding: 2px 8px;
+    color: #e0e0e0;
+}
+
+#entry {
+    padding: 6px 10px;
+    margin: 1px 6px;
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: rgba(137, 180, 250, 0.15);
+}
+
+/* Iconos */
+#entry image {
+    margin-right: 8px;
+}
+
+/* Ocultar scrollbar */
+scrollbar {
+    opacity: 0;
+}
