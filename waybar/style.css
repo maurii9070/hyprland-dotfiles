@@ -1,9 +1,9 @@
 * {
     /* Nerd Font includes all necessary icons */
-    font-family: "JetBrainsMono Nerd Font", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0 2px;
+    font-family: "SpaceMono Nerd Font Propo", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px 2px;
 }
 
 window#waybar {
@@ -18,14 +18,14 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
+/* 
 window#waybar.empty {
     background-color: transparent;
 }
 window#waybar.solo {
     background-color: #FFFFFF;
-}
-*/
+} */
+
 
 window#waybar.termite {
     background-color: #3F3F3F;
@@ -141,15 +141,16 @@ button:hover {
     background: rgba(49, 50, 68, 0.8);
     border-radius: 8px;
     color: #cdd6f4;
+    font-family: "Hack Nerd Font";
     font-weight: 600;
     font-size: 13px;
-}
+} */
 
-#window.empty {
+/* #window.empty {
     background: transparent;
     padding: 0;
     margin: 0;
-} */
+}  */
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {

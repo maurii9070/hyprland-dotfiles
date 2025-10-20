@@ -183,10 +183,10 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {essid}",
-        "format-ethernet": "󰈀  {essid}",
-        "format-linked": "󰈀  {essid}",
-        "format-disconnected": "󰖪  Disconnected",
+        "format-wifi": " {essid}",
+        "format-ethernet": "󰈀 {essid}",
+        "format-linked": "󰈀 {essid}",
+        "format-disconnected": "󰖪 Disconnected",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}\nSignal: {signalStrength}%",
         "on-click": "kitty --class=nmtui -e nmtui"
     },
@@ -221,7 +221,7 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
-        "format" : "⏻ ",
+        "format" : "⏻",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
