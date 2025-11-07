@@ -50,9 +50,9 @@ button:hover {
 
 /* Workspaces styling */
 #workspaces button {
-    padding: 2px 8px;
+    padding: 2px 4px;
     margin: 2px 3px;
-    background-color: rgba(49, 50, 68, 0.7);
+    /* background-color: rgba(49, 50, 68, 0.7); */
     color: #cdd6f4;
     border-radius: 8px;
     min-width: 30px;

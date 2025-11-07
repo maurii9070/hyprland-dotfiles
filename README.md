@@ -7,5 +7,5 @@ Instalé el sistema usando el script **archinstall** y seleccioné **Hyprland** 
 ## Paquetes
 
 ```bash
-sudo pacman -Sy hyprpaper waybar wofi nautilus polkit-gnome gnome-keyring wiremix nwg-look bibata-cursor-theme ttf-space-mono-nerd
+sudo pacman -Sy swww waybar wofi nemo polkit-gnome gnome-keyring wiremix nwg-look bibata-cursor-theme ttf-space-mono-nerd
 ```

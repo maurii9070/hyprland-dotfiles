@@ -28,8 +28,7 @@
         "battery",
         "battery#bat2",        
         "tray",
-        "clock",
-        "custom/power"
+        "clock"
     ],
     "hyprland/workspaces": {
         "on-click": "activate",
@@ -191,7 +190,7 @@
         "on-click": "kitty --class=nmtui -e nmtui"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 5, // %, can be a float
         "format": "{icon} {volume}%",
         "format-bluetooth": "{icon} 󰂯 {volume}%",
         "format-bluetooth-muted": "󰂲  Muted",
@@ -219,17 +218,5 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    },
-    "custom/power": {
-        "format" : "⏻",
-		"tooltip": false,
-		"menu": "on-click",
-		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
-		"menu-actions": {
-			"shutdown": "shutdown",
-			"reboot": "reboot",
-			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate"
-		}
     }
 }
